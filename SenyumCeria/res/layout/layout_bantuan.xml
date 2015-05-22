@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@color/bg_main">
+     
+    <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/content_background" >
+   		    
+   		  
+   		    <!-- PERAWATAN GIGI  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanPerawatan"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_marginTop="10dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:layout_marginLeft="20dp"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/PerawatanGigi"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconPerawatan"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="130dp"
+     		    android:layout_below="@+id/textBantuanPerawatan"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/perawatan_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textperawatan"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconPerawatan"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextPerawatanGigi"/>
+   		    
+   		     <!-- STRUKTUR GIGI  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanStruktur"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textperawatan"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/StrukturGigi"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconStruktur"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanStruktur"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/anatomi_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textstruktur"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconStruktur"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextStrukturGigi"/>
+   		    
+   		      <!-- PENGINGAT GIGI  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanPengingat"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textstruktur"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/PengingatGigi"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconPengingat"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanPengingat"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/jam_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textpengingat"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconPengingat"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextPengingatGigi"/>
+   		    
+   		     <!-- TIPS GIGI  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanTips"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textpengingat"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/TipsGigi"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconTips"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanTips"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/tips_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/texttips"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconTips"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextTipsGigi"/>
+   		    
+   		      <!-- VIDEO GIGI  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanVideo"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/texttips"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/VideoGigi"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconVideo"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanVideo"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/video_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textvideo"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconVideo"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextVideoGigi"/>
+   		    
+   		      <!-- KELUAR  -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanKeluar"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textvideo"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/Keluar"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconKeluar"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanKeluar"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/keluar_normal" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textkeluar"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconKeluar"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextKeluar"/>
+   		    
+   		     <!-- BANTUAN -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanBantuan"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textkeluar"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/BantuanJudul"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconBantuan"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanBantuan"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/help" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textbantuan"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconBantuan"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextBantuan"/>
+   		    
+   		     <!-- Tentang -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanTentang"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textbantuan"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/TentangJudul"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconTentang"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanTentang"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/info" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/texttentang"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconTentang"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextTentang"/>
+   		    
+   		     <!-- Play -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanPlay"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/texttentang"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/PutarSuara"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconPlay"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanPlay"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/play" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textplay"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconPlay"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextPutar"/>
+   		    
+   		    <!-- Stop -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanStop"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textplay"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/StopSuara"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconStop"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanStop"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/stop" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textstop"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconStop"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+      		    android:layout_marginBottom="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextStop"/>
+   		    
+   		    <!-- Jeda -->
+   		    
+   		    <TextView 
+     		    android:id="@+id/textBantuanJeda"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textstop"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/JedaSuara"
+     		    />
+   		    
+   		    <ImageView
+     		    android:id="@+id/iconJeda"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/textBantuanJeda"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/pause" />
+   		    
+   		    <TextView 
+    	        android:id="@+id/textjeda"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/iconJeda"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextJeda"/>
+   		    
+   		    
+   		    
+   		    
+   		    
+   		    </RelativeLayout>
+     
+    </ScrollView>
+    
+   
+    
+
+</RelativeLayout>

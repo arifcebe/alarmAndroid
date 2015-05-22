@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.tugasakhirhore.perawatan.LayoutPeriksaGigi"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.perawatan.LayoutWaktuSikatGigi"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.perawatan.LayoutMakanan"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.perawatan.LayoutPerawatan"/>
+<fullyQualifiedTypeName name="android.util.Log"/>
+<fullyQualifiedTypeName name="android.provider.MediaStore.Video"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.video.Video"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.anatomidanfungsi.LayoutAnatomidanFungsi"/>
+<fullyQualifiedTypeName name="android.app.Activity"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.video.LayoutVideo"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.pengingat.JadwalSchedulingService"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.LayoutBeranda"/>
+<fullyQualifiedTypeName name="android.content.Context"/>
+<fullyQualifiedTypeName name="android.graphics.Typeface"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.Config"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.anatomidanfungsi.LayoutFungsiGigi"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.tips.LayoutWaktuSikatGigi"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.LayoutSplashscreenActivity"/>
+<fullyQualifiedTypeName name="android.widget.DatePicker"/>
+<fullyQualifiedTypeName name="android.app.DatePickerDialog"/>
+<fullyQualifiedTypeName name="android.app.DatePickerDialog.OnDateSetListener"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.pengingat.LayoutPengingatJadwal"/>
+<fullyQualifiedTypeName name="android.widget.MediaController.MediaPlayerControl"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer.OnCompletionListener"/>
+<fullyQualifiedTypeName name="android.widget.ImageButton"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.R.id"/>
+<fullyQualifiedTypeName name="android.view.View.OnClickListener"/>
+<fullyQualifiedTypeName name="android.media.MediaPlayer"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.R.raw"/>
+<fullyQualifiedTypeName name="java.lang.Throwable"/>
+<fullyQualifiedTypeName name="android.app.AlertDialog.Builder"/>
+<fullyQualifiedTypeName name="android.support.v4.media.MediaDescriptionCompatApi21.Builder"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.pengingat.JadwalAlarmReceiver"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.R"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="com.tugasakhirhore.senyumceria.R.color"/>
+<fullyQualifiedTypeName name="android.net.Uri"/>
+</qualifiedTypeNameHistroy>

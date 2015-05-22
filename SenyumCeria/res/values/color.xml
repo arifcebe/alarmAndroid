@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="bg_main">#E3F2FD</color>
+    <color name="header">#8BC34A</color>
+    <color name="titlebesar">#00E676</color>
+    <color name="contentTitle">#33691E</color>
+    <color name="shadow">#555555</color>
+    <color name="title">#777777</color>
+    <color name="content">#009688</color>
+    <color name="edittext">#DD2C00</color>
+    <color name="edittextdua">#FFFFFF</color>
+   
+    
+</resources>

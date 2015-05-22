@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+  >
+  
+     <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="fill_parent"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    <ImageView
+     		    android:id="@+id/speaker2"
+     		    android:layout_width="40dp"
+     		    android:layout_height="40dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="10dp"
+     		    android:layout_alignParentLeft="true"
+     		    android:layout_marginLeft="20dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/musik" />
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/playperiksa"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_play"
+   		        android:layout_centerHorizontal="true"/>
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/pauseperiksa"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_pause"
+   		        android:layout_marginLeft="60dp"/>
+   		    
+   		     <ImageButton 
+   		        android:id="@+id/stopperiksa"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_stop"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_marginRight="60dp"/>
+   		    
+
+     		<ImageView
+     		    android:id="@+id/perawatanperiksa"
+     		    android:layout_width="match_parent"
+     		    android:layout_height="wrap_content"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="80dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/periksa_gigi" />
+
+     		  <TextView
+     		      android:id="@+id/textviewPeriksa"
+     		      android:layout_width="match_parent"
+     		      android:layout_height="wrap_content"
+      		      android:layout_below="@+id/perawatanperiksa"
+     		      android:gravity="center_horizontal"
+     		      android:text="@string/Periksa"
+     		      android:textSize="22sp"
+     		      android:layout_marginLeft="20dp"
+      		      android:layout_marginRight="20dp"
+    	          android:textColor="@color/content" />
+    
+     	</RelativeLayout>
+     
+    </ScrollView>
+    
+     </RelativeLayout>
+    

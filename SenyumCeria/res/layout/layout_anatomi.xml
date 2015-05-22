@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+  >
+  
+     <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    <ImageView
+     		    android:id="@+id/speaker3"
+     		    android:layout_width="40dp"
+     		    android:layout_height="40dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="10dp"
+     		    android:layout_alignParentLeft="true"
+     		    android:layout_marginLeft="20dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/musik" />
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/playanatomi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_play"
+   		        android:layout_centerHorizontal="true"/>
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/pauseanatomi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_pause"
+   		        android:layout_marginLeft="60dp"/>
+   		    
+   		     <ImageButton 
+   		        android:id="@+id/stopanatomi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_stop"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_marginRight="60dp"/>
+   		    
+   		    
+   		    <!-- Mulai content -->
+
+     		<ImageView
+     		    android:id="@+id/anatomigigi"
+     		    android:layout_width="match_parent"
+     		    android:layout_height="wrap_content"
+     		    android:layout_marginTop="85dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/struktur_gigi" />
+     		
+     		<!-- MAHKOTA GIGI  -->
+     		
+     		<TextView 
+     		    android:id="@+id/MahkotaGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/anatomigigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/MahkotaGigi"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/mahkotaGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/MahkotaGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/mahkota" />
+     		
+     		 <TextView 
+    	        android:id="@+id/textmahkotaGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/mahkotaGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textMahkotaGigi"/>
+     		 
+     		 <!-- AKAR GIGI  -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/AkarGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textmahkotaGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/AkarGigi"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/akarGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/AkarGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/akar" />
+     		
+     		 <TextView 
+    	        android:id="@+id/textakarGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/akarGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textAkarGigi"/>
+     		 
+     		  
+     		 <!-- EMAIL -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/EmailGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textakarGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/EmailGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/emailGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/EmailGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/email" />
+     		 
+     		 <TextView 
+    	        android:id="@+id/textemailGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/emailGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textEmailGigi"/>
+     		 
+     		  <!-- DENTIN -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/DentinGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textemailGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/DentinGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/dentinGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/DentinGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/dentin" />
+     		 
+     		 <TextView 
+    	        android:id="@+id/textdentinGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/dentinGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textDentinGigi"/>
+     		
+     		   <!-- PULPA -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/PulpaGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textdentinGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/PulpaGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/pulpaGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/PulpaGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/pulpa" />
+     		 
+     		  <TextView 
+    	        android:id="@+id/textpulpaGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/pulpaGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textPulpaGigi"/>
+     		 
+     		  <!-- GUSI -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/GusiGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textpulpaGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/GusiGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/gusiGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/GusiGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/gusi" />
+     		 
+     		  <TextView 
+    	        android:id="@+id/textgusiGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/gusiGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textGusiGigi"/>
+     		 
+     		  <!-- SEMENTUM -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/SementumGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textgusiGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/SementumGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/sementumGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/SementumGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/sementum" />
+     		 
+     		  <TextView 
+    	        android:id="@+id/textsementumGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/sementumGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textSementumGigi"/>
+     		 
+     		   <!-- TULANG -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/TulangGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textsementumGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/TulangGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/tulangGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/TulangGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/tulang" />
+     		 
+     		  <TextView 
+    	        android:id="@+id/texttulangGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/tulangGigi"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textTulangGigi"/>
+     		
+     		  
+     		   <!-- LIGAMEN -->
+     		 
+     		 <TextView 
+     		    android:id="@+id/LigamenGigi"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/texttulangGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/LigamenGigi"
+     		    />
+     		 
+     		 <ImageView
+     		    android:id="@+id/ligamenGigi"
+     		    android:layout_width="200dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/LigamenGigi"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/ligamen" />
+     		 
+     		  <TextView 
+    	        android:id="@+id/textligamenGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/ligamenGigi"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/textLigamenGigi"/>
+     		 
+     		    		
+     		  	 
+    
+     	</RelativeLayout>
+     
+    </ScrollView>
+    
+</RelativeLayout>
+    

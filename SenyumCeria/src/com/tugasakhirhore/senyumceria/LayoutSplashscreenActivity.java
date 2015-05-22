@@ -1,0 +1,51 @@
+package com.tugasakhirhore.senyumceria;
+
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import android.content.Intent;
+import android.os.Handler;
+
+public class LayoutSplashscreenActivity extends Activity {
+	
+	ProgressBar progressBar;
+	TextView textView;
+	Handler handler = new Handler();
+	private final int SPLASH_DISPLAY_LENGTH = 3000;
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.layout_splashscreen);
+		textView=(TextView)findViewById(R.id.mulai);
+		
+		TextView judulsenyum = (TextView)findViewById(R.id.Senyum);
+        Config.configTitleSplash(judulsenyum, LayoutSplashscreenActivity.this);
+        
+        TextView judulceria = (TextView)findViewById(R.id.Ceria);
+        Config.configTitleSplash(judulceria, LayoutSplashscreenActivity.this);
+        
+		
+		handler.postDelayed (new Runnable(){
+			public void run(){
+			textView.setText("Memulai...");
+			Intent beranda = new Intent(LayoutSplashscreenActivity.this, LayoutBeranda.class);
+			LayoutSplashscreenActivity.this.startActivity(beranda);
+			LayoutSplashscreenActivity.this.finish();
+			
+			}
+		}, SPLASH_DISPLAY_LENGTH);	
+	}
+		
+	}
+	
+	
+	
+	
+
+	
+	
+
+

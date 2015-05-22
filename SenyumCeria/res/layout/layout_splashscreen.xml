@@ -1,0 +1,63 @@
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/bg_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".LayoutSplashscreenActivity"
+     >
+     
+    	<TextView 
+    	    android:id="@+id/Senyum"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/Senyum"
+    	    android:textColor="@color/titlebesar"
+    	    android:textSize="50sp"
+    	    android:layout_marginTop="10dp"
+    	    android:layout_gravity="center"
+    	    />
+    	
+    	<TextView 
+    	    android:id="@+id/Ceria"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/Ceria"
+    	    android:textColor="@color/titlebesar"
+    	    android:textSize="50sp"
+    	    android:layout_marginTop="10dp"
+    	    android:layout_gravity="center"
+    	    />
+     
+   	 <ImageView
+		android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:src="@drawable/iconsenyum"
+    	android:layout_gravity="center"
+    	android:layout_marginTop="10dp"
+    	android:contentDescription="@string/imageViewDescription"
+    	/>
+         	
+         	
+            <ProgressBar
+                android:id="@+id/progressbar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                />
+        
+            <TextView 
+                 android:id="@+id/mulai"
+                 android:layout_width="wrap_content"
+    			 android:layout_height="wrap_content"   					  
+    			 android:text="@string/Memulai..."
+    			 android:textColor="#333"
+    			 android:textSize="14sp"
+    			 />
+
+        
+    </LinearLayout>
+  
+

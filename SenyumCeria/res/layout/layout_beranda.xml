@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+   
+     >
+     
+    <ScrollView
+        android:id="@+id/ScrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:background="@color/bg_main" 
+        >
+    
+   <RelativeLayout
+        android:id="@+id/Relative1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    
+       <TextView 
+    	    android:id="@+id/Beranda"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/Beranda"
+    	    android:textColor="@color/titlebesar"
+    	    android:textSize="40sp"
+    	    android:layout_marginTop="10dp"
+    	    android:layout_centerHorizontal="true"
+    	    />
+
+             <ImageButton
+                 android:id="@+id/ButtonPerawatan"
+                 android:layout_width="100dp"
+                 android:layout_height="130dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="10dp"
+                 android:layout_marginTop="65dp"
+                 android:background="@drawable/button_perawatan"
+                 android:contentDescription="@string/imageViewDescription" />
+  
+                 <ImageButton
+                 android:id="@+id/ButtonAnatomiGigi"
+                  android:layout_width="80dp"
+                 android:layout_height="95dp"
+                 android:layout_alignParentRight="true"  
+                 android:layout_marginTop="100dp"                          
+                 android:layout_marginRight="20dp"
+                 android:background="@drawable/button_anatomi"
+                 android:contentDescription="@string/imageViewDescription" />
+                 
+                 <TextView 
+                  android:id="@+id/Anatomi"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"  
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="40dp"               
+                  android:layout_below="@+id/ButtonAnatomiGigi"
+                  android:text="@string/anatomi"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+                 
+                  <TextView 
+                  android:id="@+id/Anatomi2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"  
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="30dp"               
+                  android:layout_below="@+id/Anatomi"
+                  android:text="@string/anatomi2"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+                 
+                 
+             
+             <TextView 
+                  android:id="@+id/Perawatan"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="30dp"
+                  android:layout_below="@+id/ButtonPerawatan"
+                  android:text="@string/perawatangigi"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+             
+             <TextView 
+                  android:id="@+id/Perawatan2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="60dp"
+                  android:layout_below="@+id/Perawatan"
+                  android:text="@string/perawatangigidua"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+           
+           
+             <!-- Baris kedua -->
+             
+          	 <ImageButton
+                 android:id="@+id/ButtonPengingat"
+                 android:layout_width="90dp"
+                 android:layout_height="95dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="30dp"
+                 android:layout_marginTop="270dp"              
+                 android:background="@drawable/button_jam"
+                 android:contentDescription="@string/imageViewDescription" />
+          	 
+          	  <ImageButton
+                 android:id="@+id/ButtonTips"
+                 android:layout_width="86dp"
+                 android:layout_height="96dp"
+                 android:layout_alignParentRight="true"               
+                 android:layout_alignTop="@+id/ButtonPengingat"
+                 android:layout_marginRight="30dp"
+                 android:background="@drawable/button_tips"
+                 android:contentDescription="@string/imageViewDescription" />
+          	 
+              <TextView 
+                  android:id="@+id/Pengingat"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="35dp"
+                  android:layout_below="@+id/ButtonPengingat"
+                  android:text="@string/pengingat"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+              <TextView 
+                  android:id="@+id/Pengingat2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="36dp"
+                  android:layout_below="@+id/Pengingat"
+                  android:text="@string/pengingat2"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+              <TextView 
+                  android:id="@+id/Tips"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="50dp"
+                  android:layout_below="@+id/ButtonTips"
+                  android:text="@string/tipsgigisehat"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+              
+               <TextView 
+                  android:id="@+id/Tips2"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="30dp"
+                  android:layout_below="@+id/Tips"
+                  android:text="@string/tipsgigisehatdua"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+               
+               <!-- Baris ketiga -->
+              
+                <ImageButton
+                 android:id="@+id/ButtonKeluar"
+                 android:layout_width="60dp"
+                 android:layout_height="70dp"
+                 android:layout_alignTop="@+id/ButtonVideo"
+                 android:layout_alignParentRight="true"
+                 android:layout_marginRight="40dp"                
+                 android:background="@drawable/button_keluar"
+                 android:contentDescription="@string/imageViewDescription" />
+                
+                <TextView 
+                  android:id="@+id/Keluar"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentRight="true"
+                  android:layout_marginRight="40dp"
+                  android:layout_below="@+id/ButtonKeluar"
+                  android:text="@string/keluar"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+                 
+             <ImageButton
+                 android:id="@+id/ButtonVideo"
+                 android:layout_width="70dp"
+                 android:layout_height="70dp"
+                 android:layout_alignParentLeft="true"
+                 android:layout_marginLeft="40dp"
+                 android:layout_marginTop="440dp"
+                 android:background="@drawable/button_video"
+                 android:contentDescription="@string/imageViewDescription" />
+                 
+                 
+                   
+             <TextView 
+                  android:id="@+id/Video"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_alignParentLeft="true"
+                  android:layout_marginLeft="50dp"
+                  android:layout_below="@+id/ButtonVideo"
+                  android:text="@string/video"
+                  android:textAppearance="?android:attr/textAppearanceMedium"
+                   />
+                
+
+               <!--   <ImageView
+                     android:id="@+id/beranda"
+                     android:layout_width="300dp"
+                     android:layout_height="wrap_content"
+                     android:layout_alignParentTop="true"
+                     android:layout_centerHorizontal="true"
+                     android:contentDescription="@string/imageViewDescription"
+                     android:src="@drawable/berandatex" />
+                  -->
+            </RelativeLayout>
+     
+    </ScrollView>
+     	
+</RelativeLayout>

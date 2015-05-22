@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+  >
+  
+     <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+        	android:layout_height="570dp"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    
+   		    <TextView    		        
+   		        android:id="@+id/NotifPeriksa"
+   		        android:layout_width="wrap_content"
+        	    android:layout_height="wrap_content"
+        	    android:layout_marginTop="10dp"
+        	    android:layout_centerHorizontal="true"
+        	    android:text="@string/notifPeriksa"
+        	    android:textColor="@color/titlebesar"
+        	    android:textSize="22sp"
+    	        android:textStyle="bold"
+   		        />
+   		    <ImageView
+     		    android:id="@+id/picNotifPeriksa"
+     		    android:layout_width="200dp"
+     		    android:layout_height="200dp"
+     		    android:layout_below="@+id/NotifPeriksa"
+     		    android:layout_marginTop="15dp"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/periksa_gigi" />
+   		    
+   		    <TextView
+     		      android:id="@+id/textnotifPeriksa"
+     		      android:layout_width="match_parent"
+     		      android:layout_height="wrap_content"
+      		      android:layout_below="@+id/picNotifPeriksa"
+      		      android:layout_marginTop="15dp"
+     		      android:gravity="center_horizontal"
+     		      android:text="@string/textnotifPeriksa"
+     		      android:textSize="22sp"
+     		      android:layout_marginLeft="20dp"
+      		      android:layout_marginRight="20dp"
+    	          android:textColor="@color/content" />
+   		    
+   		     <TextView
+     		      android:id="@+id/textnotifPeriksaTanggal"
+     		      android:layout_width="match_parent"
+     		      android:layout_height="wrap_content"
+      		      android:layout_below="@+id/textnotifPeriksa"
+      		      android:layout_marginTop="15dp"
+     		      android:gravity="center_horizontal"
+     		      android:textSize="22sp"
+     		      android:layout_centerHorizontal="true"
+    	         
+    	           />
+   		    
+   		    
+   		 </RelativeLayout>
+   		 
+   		
+     	</ScrollView>
+    
+
+</RelativeLayout>
+   		

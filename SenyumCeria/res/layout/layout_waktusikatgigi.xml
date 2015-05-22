@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+  >
+  
+     <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    <ImageView
+     		    android:id="@+id/speaker5"
+     		    android:layout_width="40dp"
+     		    android:layout_height="40dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="10dp"
+     		    android:layout_alignParentLeft="true"
+     		    android:layout_marginLeft="20dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/musik" />
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/playtipswaktu"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_play"
+   		        android:layout_centerHorizontal="true"/>
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/pausetipswaktu"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_pause"
+   		        android:layout_marginLeft="60dp"/>
+   		    
+   		     <ImageButton 
+   		        android:id="@+id/stoptipswaktu"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_stop"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_marginRight="60dp"/>
+   		    
+   		    <!-- mulai content -->
+
+     		<ImageView
+     		    android:id="@+id/waktusikatgigi"
+     		    android:layout_width="390dp"
+     		    android:layout_height="230dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="80dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/perawatan_waktumakan_dua" />
+     		
+     		<!-- BANGUN TIDUR  -->
+     		
+     		<TextView 
+     		    android:id="@+id/BangunTidur"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/waktusikatgigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/BangunTidur"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/pagiHari"
+     		    android:layout_width="100dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/BangunTidur"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/pagi_hari" />
+     		    		
+     		
+     		  <TextView 
+    	        android:id="@+id/textviewWaktuSikatGigi"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/pagiHari"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/WaktuSikatGigiPagi"/>
+     		  
+     		  <!-- SETELAH MAKAN -->
+     		  
+     		  
+     		  <TextView 
+     		    android:id="@+id/SetelahMakan"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textviewWaktuSikatGigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/SetelahMakan"
+     		    />
+     		  
+     		  <ImageView
+     		    android:id="@+id/setelahMakan"
+     		    android:layout_width="100dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/SetelahMakan"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/setelah_makan" />
+     		  
+     		  <TextView 
+    	        android:id="@+id/textviewWaktuSikatGigiMakan"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/setelahMakan"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/WaktuSikatGigiSetelahMakan"/>
+     		  
+     		  <!-- SEBELUM TIDUR  -->
+     		  
+     		  <TextView 
+     		    android:id="@+id/SebelumTidur"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textviewWaktuSikatGigiMakan"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/SebelumTidur"
+     		    />
+     		  
+     		  <ImageView
+     		    android:id="@+id/sebelumBobo"
+     		    android:layout_width="100dp"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/SebelumTidur"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/sebelum_bobo" />
+     		  
+     		   <TextView 
+    	        android:id="@+id/textviewWaktuSikatGigiMalam"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/sebelumBobo"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/WaktuSikatGigiMalam"/>
+     		  
+    
+     	</RelativeLayout>
+     
+    </ScrollView>
+    
+
+</RelativeLayout>

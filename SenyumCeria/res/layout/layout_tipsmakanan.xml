@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main" >
+    
+    <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="570dp"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    
+   		    <ImageView
+     		    android:id="@+id/speaker6"
+     		    android:layout_width="40dp"
+     		    android:layout_height="40dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="10dp"
+     		    android:layout_alignParentLeft="true"
+     		    android:layout_marginLeft="20dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/musik" />
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/playmakananbaik"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_play"
+   		        android:layout_centerHorizontal="true"/>
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/pausemakananbaik"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_pause"
+   		        android:layout_marginLeft="60dp"/>
+   		    
+   		     <ImageButton 
+   		        android:id="@+id/stopmakananbaik"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_stop"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_marginRight="60dp"/>
+   		  
+  			<!-- Mulai content -->
+
+     		<ImageView
+     		    android:id="@+id/tipsmakananbaik"
+     		    android:layout_width="fill_parent"
+     		    android:layout_height="250dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="80dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/sayurandua" />
+     		
+     		<TextView
+     		      android:id="@+id/textviewmakanan"
+     		      android:layout_width="match_parent"
+     		      android:layout_height="wrap_content"
+      		      android:layout_below="@+id/tipsmakananbaik"
+      		      android:layout_marginLeft="20dp"
+      		      android:layout_marginRight="20dp"
+     		      android:gravity="center_horizontal"
+     		      android:text="@string/TextMakananBaik"
+     		      android:textSize="22sp"
+    	          android:textColor="@color/content" />
+     		
+        
+        
+        
+        
+    </RelativeLayout> 
+    </ScrollView>
+    
+
+
+</RelativeLayout>

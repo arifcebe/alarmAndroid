@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_main"
+  >
+  
+     <ScrollView
+         android:id="@+id/ScrollView1"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:scrollbars="vertical"
+          >
+    
+   		<RelativeLayout
+   		    android:id="@+id/Relative1"
+   		    android:layout_width="match_parent"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/content_background" >
+   		    
+   		    <ImageView
+     		    android:id="@+id/speaker4"
+     		    android:layout_width="40dp"
+     		    android:layout_height="40dp"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="10dp"
+     		    android:layout_alignParentLeft="true"
+     		    android:layout_marginLeft="20dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/musik" />
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/playfungsi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_play"
+   		        android:layout_centerHorizontal="true"/>
+   		    
+   		    <ImageButton 
+   		        android:id="@+id/pausefungsi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_pause"
+   		        android:layout_marginLeft="60dp"/>
+   		    
+   		     <ImageButton 
+   		        android:id="@+id/stopfungsi"
+   		        android:layout_width="50dp"
+   		        android:layout_height="50dp"
+   		        android:layout_marginTop="45dp"
+   		        android:background="@drawable/button_stop"
+   		        android:layout_alignParentRight="true"
+   		        android:layout_marginRight="60dp"/>
+   		    
+   		    
+   		    <!-- Mulai content -->
+
+     		<ImageView
+     		    android:id="@+id/fungsigigi"
+     		    android:layout_width="match_parent"
+     		    android:layout_height="wrap_content"
+     		    android:layout_alignParentTop="true"
+     		    android:layout_marginTop="100dp"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/fungsi_gigi" />
+     		
+     		<!-- GIGI SERI -->
+     		
+     		<TextView 
+     		    android:id="@+id/GigiSeri"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/fungsigigi"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textStyle="bold"
+    	        android:textColor="@color/contentTitle"
+    	        android:text="@string/GigiSeri"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/gigiSeri"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/GigiSeri"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/seri" />
+     		
+     		<TextView 
+    	        android:id="@+id/textGigiSeri"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/gigiSeri"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextGigiSeri"/>
+     		
+     		<!-- GIGI TARING-->
+     		
+     		<TextView 
+     		    android:id="@+id/GigiTaring"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textGigiSeri"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textColor="@color/contentTitle"
+    	        android:textStyle="bold"
+    	        android:text="@string/GigiTaring"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/gigiTaring"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/GigiTaring"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/taring" />
+     		
+     		<TextView 
+    	        android:id="@+id/textGigiTaring"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/gigiTaring"
+    	        android:layout_marginBottom="20dp"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextGigiTaring"/>
+     		
+     		<!-- GIGI GERAHAM  -->
+     		
+     		<TextView 
+     		    android:id="@+id/GigiGeraham"
+     		    android:layout_width="wrap_content"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/textGigiTaring"
+    	        android:layout_marginLeft="20dp"
+    	        android:textSize="18sp"
+    	        android:textColor="@color/contentTitle"
+    	        android:textStyle="bold"
+    	        android:text="@string/GigiGeraham"
+     		    />
+     		
+     		<ImageView
+     		    android:id="@+id/gigiGeraham"
+     		    android:layout_width="wrap_content"
+     		    android:layout_height="100dp"
+     		    android:layout_below="@+id/GigiGeraham"
+     		    android:layout_centerHorizontal="true"
+     		    android:contentDescription="@string/imageViewDescription"
+     		    android:src="@drawable/geraham" />
+     		
+     		<TextView 
+    	        android:id="@+id/textGigiGeraham"
+    	        android:layout_width="match_parent"
+    	        android:layout_height="wrap_content"
+    	        android:layout_below="@+id/gigiGeraham"
+    	        android:gravity="center_horizontal"
+    	        android:textSize="22sp"
+    	        android:layout_marginLeft="20dp"
+      		    android:layout_marginRight="20dp"
+    	        android:textColor="@color/content"
+    	        android:text="@string/TextGigiGeraham"/>
+
+     		 
+    
+     	</RelativeLayout>
+     
+    </ScrollView>
+    
+     </RelativeLayout>
+    

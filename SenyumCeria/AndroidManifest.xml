@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tugasakhirhore.senyumceria"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Senyum_ceria" >
+        <activity
+            android:name="com.tugasakhirhore.senyumceria.LayoutSplashscreenActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.senyumceria.MainActivity"
+            android:configChanges="orientation"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="@string/app_name" >        
+        </activity> 
+        
+         <activity
+            android:name="com.tugasakhirhore.tips.LayoutTips"
+            android:label="@string/app_name" >        
+        </activity> 
+        
+        <activity
+            android:name="com.tugasakhirhore.senyumceria.LayoutBeranda"
+            android:label="@string/app_name" >        
+        </activity> 
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutPengingatSatu"
+            android:label="@string/app_name" >        
+        </activity> 
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutReminder"
+            android:label="@string/app_name" >        
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutAturPagi"
+            android:label="@string/app_name" >         
+        </activity> 
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutAturMalam"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutAturCheckUp"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.penyakit.LayoutPenyakit"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.perawatan.LayoutPerawatan"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.perawatan.LayoutSikatGigi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.perawatan.LayoutPeriksaGigi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.tips.LayoutWaktuSikatGigi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.tips.LayoutMakanan"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.menuopsi.LayoutBantuan"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.menuopsi.LayoutTentang"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.penyakit.LayoutKaries"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.penyakit.LayoutGusiBengkak"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.tips.LayoutTipsMakanan"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.tips.LayoutTipsMemilihOdol"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.tips.LayoutTipsMemilihSikat"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.tips.LayoutTipsMencegahGB"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.senyumceria.Video"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.anatomidanfungsi.LayoutFungsiGigi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.anatomidanfungsi.LayoutAnatomi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.anatomidanfungsi.LayoutAnatomidanFungsi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <activity
+            android:name="com.tugasakhirhore.pengingat.LayoutPengingatJadwal"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.NotifMalam"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.NotifPagi"
+            android:label="@string/app_name" >         
+        </activity>
+        
+        <activity
+            android:name="com.tugasakhirhore.pengingat.NotifPeriksa"
+            android:label="@string/app_name" >         
+        </activity>
+        
+         <receiver 
+             android:name="com.tugasakhirhore.pengingat.JadwalAlarmReceiver"/>
+         <receiver 
+             android:name="com.tugasakhirhore.pengingat.JadwalAlarmReceiverMalam"/>
+         <receiver 
+             android:name="com.tugasakhirhore.pengingat.JadwalAlarmReceiverCheckUp"/>
+         
+         <receiver 
+             android:name="com.tugasakhirhore.pengingat.JadwalBootReceiver"
+             android:enabled="false">
+             
+             <intent-filter >
+                 <action android:name="android.intent.action.BOOT_COMPLETED"/>
+             </intent-filter>
+         </receiver>
+        
+         <service android:name="com.tugasakhirhore.pengingat.JadwalSchedulingService"/>
+         
+          <service android:name="com.tugasakhirhore.pengingat.JadwalSchedulingServiceMalam"/>
+        
+          <service android:name="com.tugasakhirhore.pengingat.JadwalSchedulingServiceCheckUp"/>
+         
+         <activity
+            android:name="com.tugasakhirhore.video.LayoutVideo"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >         
+        </activity>
+        
+    </application>
+
+</manifest>

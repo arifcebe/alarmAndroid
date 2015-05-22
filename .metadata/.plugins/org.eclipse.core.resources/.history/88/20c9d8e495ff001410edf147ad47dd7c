@@ -1,0 +1,29 @@
+package com.tugasakhirhore.pengingat;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+import com.tugasakhirhore.senyumceria.Config;
+import com.tugasakhirhore.senyumceria.R;
+
+public class NotifPeriksa extends Activity {
+	
+	protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.notifsikatpagi);
+        
+        TextView judulnotifperiksa= (TextView)findViewById(R.id.NotifPeriksa);
+        Config.configTitleSplash(judulnotifperiksa, NotifPeriksa.this);
+        
+        TextView notifperiksa = (TextView)findViewById(R.id.textnotifPeriksa);
+        Config.configFont(notifperiksa, NotifPeriksa.this);
+        
+        TextView notifperiksatanggal = (TextView)findViewById(R.id.textnotifPeriksaTanggal);
+        Config.configFont(notifperiksatanggal, NotifPeriksa.this);
+        
+        
+        JadwalSchedulingServiceCheckUp.clearNotification(NotifPeriksa.this);
+	}
+
+}

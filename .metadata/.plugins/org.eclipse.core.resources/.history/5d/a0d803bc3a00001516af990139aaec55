@@ -1,0 +1,38 @@
+package com.tugasakhirhore.pengingat;
+
+import android.app.Activity;
+import android.content.SharedPreferences;
+import android.os.Bundle;
+import android.preference.PreferenceManager;
+import android.widget.TextView;
+
+import com.tugasakhirhore.senyumceria.Config;
+import com.tugasakhirhore.senyumceria.R;
+
+public class NotifPeriksa extends Activity {
+	
+	 TextView notifperiksatext;
+	protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.notifsikatpagi);
+        
+        TextView judulnotifperiksa= (TextView)findViewById(R.id.NotifPeriksa);
+        Config.configTitleSplash(judulnotifperiksa, NotifPeriksa.this);
+        
+        TextView notifperiksa = (TextView)findViewById(R.id.textnotifPeriksa);
+        Config.configFont(notifperiksa, NotifPeriksa.this);
+        
+      /*  TextView notifperiksatanggal = (TextView)findViewById(R.id.textnotifPeriksaTanggal);
+        Config.configFont(notifperiksatanggal, NotifPeriksa.this);*/
+        
+         notifperiksatext = (TextView)findViewById(R.id.textnotifPeriksaTanggal);
+        
+        SharedPreferences prefCheck = PreferenceManager.getDefaultSharedPreferences(this);
+        String jadwalCheckNext = prefCheck.getString("jadwalCheckNext", null); 
+        
+        notifperiksatext.setText(jadwalCheckNext);
+        
+        JadwalSchedulingServiceCheckUp.clearNotification(NotifPeriksa.this);
+	}
+
+}
