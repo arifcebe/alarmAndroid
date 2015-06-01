@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    >
+    
+    <!-- Pagi -->
+    
+    
+     
+    
+    <EditText 
+        android:id="@+id/editPagi"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:layout_toRightOf="@+id/iconPagi"
+        android:inputType="text"/>
+    
+    <ToggleButton 
+        android:id="@+id/togglePagi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_toRightOf="@+id/editPagi"
+        android:checked="false"/>
+    
+    
+    <!-- Malam -->
+    
+     
+      <EditText 
+        android:id="@+id/editMalam"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="195dp"
+        android:layout_toRightOf="@+id/iconPagi"
+        android:inputType="text"/>
+    
+    <ToggleButton 
+        android:id="@+id/toggleMalam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="175dp"
+        android:layout_toRightOf="@+id/editPagi"/>
+    
+    <!--CheckUp -->
+    
+    
+     
+    
+      <EditText 
+        android:id="@+id/editPeriksa"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:layout_toRightOf="@+id/iconPagi"
+        android:inputType="text"/>
+    
+    <ToggleButton 
+        android:id="@+id/togglePeriksa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:layout_toRightOf="@+id/editPagi"/>
+    
+    
+    
+    
+
+</RelativeLayout>
